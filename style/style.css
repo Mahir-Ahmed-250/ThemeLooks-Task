@@ -127,7 +127,7 @@
     align-items: center;
 }
 
-banner .homeBanner-title {
+.homeBanner-title {
     font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 46px;
@@ -259,6 +259,7 @@ input {
 
 .price-plan-container {
     background: #f2f2f2;
+    padding-bottom: 200px;
 }
 
 .price-plan-card:hover .price-plan-card-header {
@@ -314,7 +315,6 @@ input {
     width: 170px;
     border-radius: 5px;
 }
-
 
 .ribbon {
     width: 150px;
@@ -374,10 +374,23 @@ input {
 }
 
 
+/* What We Done */
+
+.we-done-container {
+    background-color: #000000;
+    padding-top: 108px;
+    padding-bottom: 97px;
+}
 
 
-
-
+.what-we-do-title {
+    font-family: 'PT Serif', serif;
+    font-weight: 800;
+    position: absolute;
+    margin-top: -85px;
+    color: #ffffff;
+    margin-left: 90px;
+}
 
 
 
@@ -446,7 +459,6 @@ input {
         font-size: 11px !important;
     }
 
-
 }
 
 
@@ -479,6 +491,9 @@ input {
 
         padding: 0px
     }
+
+
+
 }
 
 
