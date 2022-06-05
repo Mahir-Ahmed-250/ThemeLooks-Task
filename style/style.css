@@ -392,6 +392,90 @@ input {
     margin-left: 90px;
 }
 
+/* What We Offer */
+
+.what-we-offer-container {
+    background: #f2f2f2;
+    padding-bottom: 200px;
+}
+
+.offer-tab {
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+}
+
+.offer-tab::after {
+    display: block;
+    content: '';
+    border-bottom: solid 8px #139fe6;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+    transform-origin: 100% 50%;
+}
+
+.offer-tab:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0 75%;
+
+}
+
+.offer-tab:hover .tab-icon {
+    color: #00acee;
+}
+
+.tab-items-container {
+    background-color: #ffffff;
+
+}
+
+
+.tab-items-container-2 {
+    padding: 72px;
+}
+
+.tab-items-title {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.tab-items-text-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 48px;
+}
+
+.tab-items-text-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: justify;
+    color: #999999;
+}
+
+.tab-items-text-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.tab-items-learn-more {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.tab-items-learn-more:hover {
+    color: #00acee;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
