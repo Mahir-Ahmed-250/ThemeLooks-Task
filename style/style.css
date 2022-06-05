@@ -481,10 +481,15 @@ input {
 
 /* Why Choose Us */
 
+.why-us {
+    padding-bottom: 100px;
+}
+
 .why-us-1 {
     height: 584px;
     background: #119ee6;
     padding-top: 20%;
+
 }
 
 .why-us-1:hover {
@@ -698,7 +703,6 @@ input {
     opacity: 0.2;
 }
 
-
 .why-us-5-text-2 {
     font-size: 30px;
     color: #ffffff;
@@ -721,6 +725,86 @@ input {
     padding-top: 25px;
     margin-left: 10px;
 }
+
+/* What Clients Say */
+
+.review-container {
+    background: #f2f2f2;
+    padding-bottom: 200px;
+}
+
+
+
+.item {
+    color: white;
+    margin-left: 40px;
+}
+
+.owl-nav {
+    margin-top: 50px !important;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+}
+
+.fa:hover {
+    background-color: #f2f2f2;
+    color: #119ee6 !important;
+    border: none;
+}
+
+.review-card-review {
+    position: relative;
+    margin-top: -50px;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.review-card-review-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #555555;
+    border-left: 4px solid #119ee6;
+    padding-left: 20px;
+}
+
+.name {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.address {
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Queries */
