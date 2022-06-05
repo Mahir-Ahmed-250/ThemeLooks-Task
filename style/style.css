@@ -536,6 +536,7 @@ input {
     background: #119ee6;
     margin-bottom: 10px;
     padding-top: 50px;
+    border-left: 10px solid #ffffff;
 }
 
 .why-us-2:hover {
@@ -636,6 +637,7 @@ input {
     height: 282px;
     background: #119ee6;
     padding-top: 50px;
+    border-left: 10px solid #ffffff;
 }
 
 .why-us-4:hover {
@@ -977,6 +979,23 @@ input {
         margin-top: 20px;
     }
 
+    .why-us-2 {
+        border-top: 10px solid #ffffff;
+        border-left: none;
+    }
+
+    .why-us-3 {
+        border-left: none;
+    }
+
+    .why-us-5 {
+
+        border-left: none;
+    }
+
+    .why-us-4 {
+        border-left: none;
+    }
 }
 
 
@@ -1096,6 +1115,7 @@ input {
     .footer-address-icon-text {
         flex-direction: column;
     }
+
 }
 
 
