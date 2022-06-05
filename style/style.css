@@ -210,7 +210,7 @@
 }
 
 
-.input-group {
+.input-group-search {
     border: none;
     height: 63px;
     width: 630px !important;
@@ -635,6 +635,7 @@ input {
 .why-us-4 {
     height: 282px;
     background: #119ee6;
+    padding-top: 50px;
 }
 
 .why-us-4:hover {
@@ -681,6 +682,7 @@ input {
 .why-us-5 {
     height: 282px;
     background: #119ee6;
+    padding-top: 50px;
     margin-bottom: 10px;
     border-left: 10px solid #ffffff;
 }
@@ -817,16 +819,70 @@ input {
 
 .footer-container {
     background-color: #151414;
+    padding-top: 76px;
+}
+
+.follow-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cccccc;
 }
 
 
 
+.footer-text-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 40px;
+}
 
+.footer-text-2 {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 
+.footer-text-3 {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
 
+.footer-link {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
 
+.input-group-subscribe {
+    border: none;
+    height: 44px;
+    width: 270px;
+    margin-top: 20px;
 
+}
 
+.btn-subscribe {
+    background-color: #139fe6;
+    width: 110px;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.footer-text-4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #cccccc;
+}
 
 
 
@@ -878,9 +934,9 @@ input {
         left: 0;
     }
 
-    .input-group {
+    .input-group-search {
 
-        width: 300px !important;
+        width: 260px !important;
 
     }
 
@@ -915,6 +971,10 @@ input {
     .why-us-1-text-4 {
         font-size: 12px;
         padding-top: 0px;
+    }
+
+    .footer-text-3 {
+        margin-top: 20px;
     }
 }
 
@@ -1041,5 +1101,9 @@ input {
 @media only screen and (max-width: 1366px) {
     .navbar-nav {
         margin-left: 250px;
+    }
+
+    .social-container-footer {
+        font-size: 12px;
     }
 }
